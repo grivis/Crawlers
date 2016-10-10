@@ -2,6 +2,7 @@ import urllib.request
 import re
 import html
 
+
 def download_page(pageUrl):
     try:
         page = urllib.request.urlopen(pageUrl)
