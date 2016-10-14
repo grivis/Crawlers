@@ -17,6 +17,8 @@ titles = regPostTitle.findall(html)
 
 
 print(len(titles))
+titles = titles[:-1]
+print(len(titles))
 
 
 new_titles = []
